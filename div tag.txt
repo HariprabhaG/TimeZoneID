@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <center><div id="Header" style="background-color: yellow; height: 80px; align-content: center;"><h3>APPLICATION FORM</h3></div></center>
+    
+    <form action="action_page.php"><br>
+      <div style="background-color:green; height:100px;align-content:center;"<label="fname">First Name:</label>
+      <input type="text" id="fname" name="fname"><br></br>
+      <label="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname"<br></br></div>
+      <div style="background-color:red; height:60px;align-content:center;"<br><label="GENDER">Gender</label><br></br>
+      <input type="radio" id="gender" name="gender" value="male"<br>
+        <label="male">Male</label>
+        <input type="radio" id="gender" name="gender" value="female"<br>
+        <label="female">Female</label><br></div>
+          <div style="background-color:orange; height:100px;align-content:center;"<br> <label="skills">Skills</label><br></br>
+          <input type="checkbox" id="skills" name="skills" value="html"
+          <label="skills1">Html</label><br>
+          <input type="checkbox" id="skills" name="skills" value="css"
+          <label="skills1">Css</label><br>
+          <input type="checkbox" id="skills" name="skills" value="java"
+          <label="skills2">Java</label><br></br></div>
+         <div style="background-color:pink; height:60px;align-content:center;"<label="experience">Experience</label>
+          <select name="experience" id="experience"><br>
+           <option value="experience">Fresher</option>
+             <option value="experience">Experienced</option>
+              </select></div>
+       <br></br>
+      <center><input type="submit" value="Submit"></center>
+      </form>
+  </body>
+</html>
